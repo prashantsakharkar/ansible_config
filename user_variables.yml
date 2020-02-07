@@ -44,9 +44,9 @@ neutron_service_region: US-WEST-2
 generate_fsid: false
 fsid: 126f14c4-7fe1-40e4-94eb-9240b63de5c1
 
-monitor_address_block: "10.10.0.0/16"
-public_network: "10.10.0.0/16"
-cluster_network: "10.10.0.0/16"
+monitor_address_block: "10.10.10.0/24"
+public_network: "10.10.10.0/24"
+cluster_network: "10.10.10.0/24"
 osd_scenario: collocated
 devices:
   - /dev/sdb
