@@ -95,7 +95,7 @@ ceph-mon_hosts:
 
 # ceph-osds
 ceph-osd_hosts:
-  osd:
+  osd1:
     ip: 10.10.10.10
   osd2:
     ip: 10.10.10.12
