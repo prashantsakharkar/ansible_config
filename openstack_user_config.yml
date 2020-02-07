@@ -1,8 +1,8 @@
 ---
 cidr_networks:
-  container: 10.10.0.0/16
-  tunnel: 10.10.0.0/16
-  storage: 10.10.0.0/16
+  container: 10.10.10.0/24
+  tunnel: 10.10.10.0/24
+  storage: 10.10.10.0/24
 
 used_ips:
   - 10.10.10.1
