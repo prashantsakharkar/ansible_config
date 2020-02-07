@@ -107,6 +107,11 @@ image_hosts:
   controller:
     ip: 10.10.10.4
 
+# placement
+placement-infra_hosts:
+  controller:
+    ip: 10.10.10.4
+    
 # nova api, conductor, etc services
 compute-infra_hosts:
   controller:
