@@ -49,7 +49,7 @@ public_network: "10.10.10.0/24"
 cluster_network: "10.10.10.0/24"
 osd_scenario: collocated
 devices:
-  - /dev/sdb
+  - /dev/vda
 journal_size: 10240 # size in MB
 
 openstack_config: true
