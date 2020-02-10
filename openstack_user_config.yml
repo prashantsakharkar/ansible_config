@@ -144,6 +144,20 @@ storage_hosts:
           volume_driver: cinder.volume.drivers.lvm.LVMVolumeDriver
           volume_backend_name: LVM_iSCSI
           iscsi_ip_address: "10.10.10.17"
+   controller:
+    ip: 10.10.10.4
+    container_vars:
+      cinder_backends:
+        limit_container_types: cinder_volume
+        rbd:
+          volume_driver: cinder.volume.drivers.rbd.RBDDriver
+          rbd_pool: volumes
+          rbd_ceph_conf: /etc/ceph/ceph.conf
+          rbd_store_chunk_size: 8
+          volume_backend_name: rbddriver
+          rbd_user: "{{ cinder_ceph_client }}"
+          rbd_secret_uuid: "{{ cinder_ceph_client_uuid }}"
+          report_discard_supported: true       
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
