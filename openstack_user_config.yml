@@ -134,7 +134,7 @@ compute_hosts:
 
 # cinder storage host (LVM-backed)
 storage_hosts:
-  storage:
+  iscsi:
     ip: 10.10.10.16
     container_vars:
       cinder_backends:
