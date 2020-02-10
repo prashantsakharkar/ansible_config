@@ -144,7 +144,7 @@ storage_hosts:
           volume_driver: cinder.volume.drivers.lvm.LVMVolumeDriver
           volume_backend_name: LVM_iSCSI
           iscsi_ip_address: "10.10.10.17"
-   controller:
+  controller:
     ip: 10.10.10.4
     container_vars:
       cinder_backends:
