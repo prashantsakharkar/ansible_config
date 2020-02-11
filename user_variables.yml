@@ -29,12 +29,14 @@ cinder_region_name: US-WEST-2
 glance_region_name: US-WEST-2
 nova_region_name: US-WEST-2
 neutron_region_name: US-WEST-2
+placement_region_name: US-WEST-2
 
 keystone_service_region: US-WEST-2
 cinder_service_region: US-WEST-2
 glance_service_region: US-WEST-2
 nova_service_region: US-WEST-2
 neutron_service_region: US-WEST-2
+placement_service_region: US-WEST-2
 
 ###
 ### This file contains commonly used overrides for convenience. Please inspect
